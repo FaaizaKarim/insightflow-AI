@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy-deep:  #0A2342;
+  --navy-mid:   #1A3A6B;
+  --blue-core:  #0E6BA8;
+  --blue-muted: #6B9AB8;
+  --blue-light: #B8D4E3;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-core hover:bg-blue-600 text-white font-medium px-4 py-2 rounded-lg transition-colors duration-150;
+  }
+  .card {
+    @apply bg-navy-mid border border-blue-muted/20 rounded-xl p-4;
+  }
+  .input-field {
+    @apply bg-navy-deep border border-blue-muted/30 text-white placeholder-blue-muted/60 
+           rounded-lg px-3 py-2 w-full focus:outline-none focus:border-blue-core transition-colors;
+  }
+
+  /* Markdown table styling */
+  .prose table { @apply w-full text-sm border-collapse; }
+  .prose th { @apply bg-navy-deep text-blue-light font-semibold px-3 py-2 text-left border-b border-blue-muted/30; }
+  .prose td { @apply px-3 py-2 border-b border-blue-muted/10 text-blue-light/80; }
+  .prose tr:hover td { @apply bg-blue-core/5; }
+  .prose code { @apply bg-navy-deep text-blue-light font-mono text-xs px-1.5 py-0.5 rounded; }
+  .prose pre { @apply bg-navy-deep rounded-lg p-4 overflow-x-auto; }
+  .prose strong { @apply text-white font-semibold; }
+  .prose h1,h2,h3 { @apply text-white font-semibold mt-4 mb-2; }
+  .prose p { @apply text-blue-light/90 leading-relaxed mb-3; }
+  .prose ul,ol { @apply text-blue-light/90 pl-4 mb-3 space-y-1; }
+  .prose li { @apply list-disc; }
+  .prose a { @apply text-blue-core underline; }
+}
