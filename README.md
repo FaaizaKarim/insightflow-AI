@@ -1,3 +1,5 @@
+<img width="1920" height="832" alt="image" src="https://github.com/user-attachments/assets/839b983b-7d88-4b2b-a40a-567b9d2a3d41" />
+
 # InsightFlow AI — Enterprise Data Intelligence Agent
 
 > **One chat interface. Live SQL. ML predictions. Document search. All wired together.**
