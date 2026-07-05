@@ -1,4 +1,6 @@
 <img width="1920" height="832" alt="image" src="https://github.com/user-attachments/assets/839b983b-7d88-4b2b-a40a-567b9d2a3d41" />
+<img width="1917" height="648" alt="image" src="https://github.com/user-attachments/assets/3af5b83f-42a6-41e9-82b7-595088041354" />
+
 
 # InsightFlow AI — Enterprise Data Intelligence Agent
 
